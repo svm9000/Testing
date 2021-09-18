@@ -1,6 +1,6 @@
 import pickle
 from main import clf
-
+import unittest
 
 def test_accuracy():
 
@@ -16,3 +16,6 @@ def test_accuracy():
 
     # Accuracy should be over 90%
     assert acc > 0.9
+
+if __name__ == "__main__":
+    unittest.main()
