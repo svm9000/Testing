@@ -1,9 +1,10 @@
 import pickle
 import numpy as np
 from typing import List
-from fast
-api import FastAPI
+from fastapi import FastAPI
 from pydantic import BaseModel, conlist
+
+
 
 app = FastAPI(title="Predicting Wine Class with batdsch")
 
