@@ -6,6 +6,8 @@ name: testcicd
 on:
   # Triggers the workflow on push request events only when there are changes in the desired path
   push:
+    branches: [ main ]
+
     paths:
       - 'Testing/myapp/**'
 
