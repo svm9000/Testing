@@ -5,7 +5,6 @@ import unittest
 class Test_TestAccuracy(unittest.TestCase):
     def test_accuracy(self):
 
-
         # Load test data
         with open("data/test_data.pkl", "rb") as file:
             test_data = pickle.load(file)
