@@ -19,4 +19,5 @@ class Test_TestAccuracy(unittest.TestCase):
         # Accuracy should be over 90%
         self.assertGreater(acc,0.9) 
 
-if name
+if __name__ =='__main__':
+    unittest.main()
