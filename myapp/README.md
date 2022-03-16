@@ -58,25 +58,6 @@ Now you will use git to push changes to the remote version of your fork.
 With the push the CI/CD pipeline should have been triggered. To see it in action visit your forked repo in a browser and click the `Actions` button.
 
 
-Here you will see all of the runs of the workflows you have set up. Right now you should see a run that looks like this (notice that the name is the same as the commit message):
-
-![workflow-run](../../assets/workflow-run.png)
-
-You can click on the name of this run to see a summary of the jobs that made it up. If you do so you will see there is only the job `test` that you defined in the `YAML` file:
-
-![job](../../assets/job.png)
-
-Now you can click once again the job to see a detailed list of all the steps of that job:
-
-![steps](../../assets/steps.png)
-
-Notice that these steps are the sames you defined in the configuration file plus some automatically added by GitHub.
-
-This Action takes around 40 seconds to complete so by now it should have finished. Click again on the `Actions` button to see the list of workflow runs and you should see the run accompanied by a green icon showing that all tests passed successfully:
-
-![good-run](../../assets/good-run.png)
-
-You just run your own CI/CD pipeline! Pretty cool!
 
 ## Running the pipeline more times
 
