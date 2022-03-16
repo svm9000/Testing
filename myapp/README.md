@@ -311,11 +311,3 @@ Once the change is saved, use git to push the changes as before. Use the followi
 Now all of the tests should pass! With this you can be sure that this new version of the model is working as expected.
 
 -----
-
-**Congratulations on finishing this ungraded lab!**
-
-In this lab you saw what GitHub Actions is, how it can be configured and how it can be used to run CI/CD pipelines. This topic is very cool since it automates many repetitive processes such as running unit tests to ensure the quality of the software you are shipping.
-
-These pipelines are meant to run really quickly so you can iterate your code in an agile and safe way.
-
-**Keep it up!**
