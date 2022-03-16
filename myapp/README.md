@@ -1,16 +1,5 @@
-# Week 3 Ungraded Lab: Intro to CI/CD pipelines with GitHub Actions
+# Testing CI/CD pipelines with GitHub Actions
 
-Welcome! During this lab you will take a look at how to use [GitHub Actions](https://github.com/features/actions) to automate your Machine Learning workflows. You will also perform some unit testing using [pytest](https://docs.pytest.org/en/6.2.x/) to evaluate changes to your code before deploying into production.
-
-This lab is going to be different to the previous ones for several reasons:
-- You will need to [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repo so you can run GH actions on your own copy of the repo.
-
-- You will need to edit the code by pasting snippets provided in this tutorial.
-- You will push changes to your forked repo by using git commands. Don't worry if you are not very familiar with git as all commands will be explained here.
-
-Let's get started!
-
----
 
 ## What is GH Actions?
 
